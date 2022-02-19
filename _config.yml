@@ -5,7 +5,7 @@ header-img: img/home-bg.jpg
 email: liu_jiaxing@hust.edu.cn
 description: "关于物理与程序、xx与xx | 黄玄，Physics & Simulation，Software Engineer，xx XXX | 这里是 @JXLIU 的个人博客，与你一起发现更大的世界。"
 keyword: "JXLIU, bwcx, 博客, 个人网站, 互联网, Web, Fortran, 设计"
-url: "https://bwcx.top"              # your host, for absolute URL
+url: "https://jiaxing-liu.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
