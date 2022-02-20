@@ -1,6 +1,6 @@
 # Site settings
 title: JXLIU Blog
-SEOTitle: 小菜鸡的博客 | Hux Blog
+SEOTitle: 小菜鸡的博客 | JXLIU Blog
 header-img: img/home-bg.jpg
 email: liu_jiaxing@hust.edu.cn
 description: "关于物理与程序、xx与xx | 黄玄，Physics & Simulation，Software Engineer，xx XXX | 这里是 @JXLIU 的个人博客，与你一起发现更大的世界。"
@@ -59,7 +59,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: hux
+#disqus_username: hux
 
 # Netease settings
 netease_comment: false
@@ -71,8 +71,8 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+#ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+#ga_domain: huangxuan.me
 
 
 
