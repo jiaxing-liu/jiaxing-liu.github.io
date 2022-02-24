@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "the use of VNC in linux"
-subtitle:   "in Gentoo linux"
+title:      "Eighth week group meeting record"
+subtitle:   "normal speed"
 date:       2022-02-24 21:00:00
 author:     "JXLIU"
 header-img: "img/post-bg-2015.jpg"
