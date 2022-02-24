@@ -44,9 +44,7 @@ PSC程序运行结果和mhd之前结果相同
 
   功率平衡：
   $$
-  \begin{equation}
   \frac{4}{7} \kappa_{0}\left(T_{0}^{7 / 2}-T_{m}^{7 / 2}\right) / L=\alpha_{z} n_{m}^{2} R_{z}\left(T_{m}\right) L_{m}
-  \end{equation}
   $$
   	其中，右侧为杂质辐射功率，左侧为MARFE区域输入功率，由以下公式导出[The Plasma Boundary of Magnetic Fusion Devices, Stangeby, 2000]
   $$
@@ -55,7 +53,7 @@ PSC程序运行结果和mhd之前结果相同
   T\left(s_{\|}\right)=&\left[T_{u}^{7 / 2}-\frac{7}{4} \frac{\left(P_{\mathrm{SOL}} / A_{q \|}\right)}{L} \frac{s_{\|}^{2}}{\kappa_{0}}\right]^{2 / 7}\\
   T\left(s_{\|}\right)=&\left[T_{t}^{7 / 2}+\frac{7}{4} \frac{\left(P_{\mathrm{SOL}} / A_{q \|}\right)}{L} \frac{\left(s_{\|}-L\right)^{2}}{\kappa_{0}}\right]^{2 / 7}\\
   P_{\text{SOL}}=&\frac{4}{7}\frac{T_u^\frac{2}{7}\kappa_0A_{q\|}}{L}
-  \end{array}\\
+  \end{array}
   $$
 
 
