@@ -15,8 +15,7 @@ tags:
 # 第八周
 
 # 0. 上周计划
-
-![image-20220224194425893](C:\Users\FIRSTROG\AppData\Roaming\Typora\typora-user-images\image-20220224194425893.png)
+   ![image](https://user-images.githubusercontent.com/71710349/155537989-9a65b58c-094c-4e08-8063-3f0817ddec02.png)
 
 # 1. PSC
 
@@ -40,8 +39,7 @@ PSC程序运行结果和mhd之前结果相同
 
 # 2. PWSO
 - MARFE formation
-
-  ![image-20220224162736512](C:\Users\FIRSTROG\AppData\Roaming\Typora\typora-user-images\image-20220224162736512.png)
+  ![image](https://user-images.githubusercontent.com/71710349/155538305-13247b9a-5325-4da5-98ad-b0074750a559.png)
 
   功率平衡：
   $$
@@ -49,7 +47,7 @@ PSC程序运行结果和mhd之前结果相同
   \frac{4}{7} \kappa_{0}\left(T_{0}^{7 / 2}-T_{m}^{7 / 2}\right) / L=\alpha_{z} n_{m}^{2} R_{z}\left(T_{m}\right) L_{m}
   \end{equation}
   $$
-  ​	其中，右侧为杂质辐射功率，左侧为MARFE区域输入功率，由以下公式导出[The Plasma Boundary of Magnetic Fusion Devices, Stangeby, 2000]
+  	其中，右侧为杂质辐射功率，左侧为MARFE区域输入功率，由以下公式导出[The Plasma Boundary of Magnetic Fusion Devices, Stangeby, 2000]
   $$
   \begin{array}{rl}
   \frac{d}{d s_{\|}} \left(q_{\| \text {cond }}\right)=&\frac{\left(P_{\text {SOL }} / A_{q \|}\right)}{L}=-\kappa_{0} T^{5 / 2} \frac{\mathrm{d}^2 T}{ds_\|^2}\\
@@ -102,7 +100,8 @@ $$
 $$
 这里，$R,R^{\prime}>0$，所以$\color{red}{格林函数没有奇异性}$
 
-$\eta=0$时，LCFS处相对误差；横轴为$\theta$，纵轴为相对误差![image-20220224195807689](C:\Users\FIRSTROG\AppData\Roaming\Typora\typora-user-images\image-20220224195807689.png)
+$\eta=0$时，LCFS处相对误差；横轴为$\theta$，纵轴为相对误差
+![image](https://user-images.githubusercontent.com/71710349/155538098-10b77e20-d1ab-4ae5-b9ff-ad9487a7add2.png)
 
 # 4. 下周计划：
 
