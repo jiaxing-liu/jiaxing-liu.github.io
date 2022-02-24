@@ -53,7 +53,8 @@ PSC程序运行结果和mhd之前结果相同
   T\left(s_{\|}\right)=&\left[T_{u}^{7 / 2}-\frac{7}{4} \frac{\left(P_{\mathrm{SOL}} / A_{q \|}\right)}{L} \frac{s_{\|}^{2}}{\kappa_{0}}\right]^{2 / 7}\\
   T\left(s_{\|}\right)=&\left[T_{t}^{7 / 2}+\frac{7}{4} \frac{\left(P_{\mathrm{SOL}} / A_{q \|}\right)}{L} \frac{\left(s_{\|}-L\right)^{2}}{\kappa_{0}}\right]^{2 / 7}\\
   P_{\text{SOL}}=&\frac{4}{7}\frac{T_u^\frac{2}{7}\kappa_0A_{q\|}}{L}
-  \end{equation}
+   \end{array}
+   \end{equation}
 
 
   假设压强守恒：
