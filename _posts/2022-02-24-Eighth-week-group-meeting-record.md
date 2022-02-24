@@ -43,9 +43,9 @@ PSC程序运行结果和mhd之前结果相同
   ![image](https://user-images.githubusercontent.com/71710349/155538305-13247b9a-5325-4da5-98ad-b0074750a559.png)
 
   功率平衡：
-  $$
+  \begin{equation}
   \frac{4}{7} \kappa_{0}\left(T_{0}^{7 / 2}-T_{m}^{7 / 2}\right) / L=\alpha_{z} n_{m}^{2} R_{z}\left(T_{m}\right) L_{m}
-  $$
+  \end{equation}
   	其中，右侧为杂质辐射功率，左侧为MARFE区域输入功率，由以下公式导出[The Plasma Boundary of Magnetic Fusion Devices, Stangeby, 2000]
   $$
   \begin{array}{rl}
