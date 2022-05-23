@@ -87,3 +87,48 @@ cd build
 make -j21
 make -j21 install
 ```
+## module file for gcc-9.4.0
+
+contents in module file `gcc-9.4.0`
+```bash
+#%Module 1.0
+
+set prefix /home/jxliu/software/compilers/gcc-9.4.0
+
+prepend-path     CPLUS_INCLUDE_PATH      $prefix/include
+prepend-path     C_INCLUDE_PATH          $prefix/include
+prepend-path     LD_LIBRARY_PATH         $prefix/lib
+prepend-path     LIBRARY_PATH            $prefix/lib
+prepend-path     LD_LIBRARY_PATH         $prefix/lib64
+prepend-path     LIBRARY_PATH            $prefix/lib64
+prepend-path     PATH                    $prefix/bin
+prepend-path     LD_RUN_PATH             $prefix/lib
+prepend-path     LD_RUN_PATH             $prefix/lib64
+
+## GMP
+prepend-path     LD_LIBRARY_PATH         /home/jxliu/software/gmp/gmp-6.0.0/lib
+prepend-path     LIBRARY_PATH            /home/jxliu/software/gmp/gmp-6.0.0/lib
+prepend-path     LD_RUN_PATH             /home/jxliu/software/gmp/gmp-6.0.0/lib
+prepend-path     CPLUS_INCLUDE_PATH      /home/jxliu/software/gmp/gmp-6.0.0/include
+prepend-path     C_INCLUDE_PATH          /home/jxliu/software/gmp/gmp-6.0.0/include
+
+## MPFR
+prepend-path     LD_LIBRARY_PATH         /home/jxliu/software/mpfr/mpfr-3.1.1/lib
+prepend-path     LIBRARY_PATH            /home/jxliu/software/mpfr/mpfr-3.1.1/lib
+prepend-path     LD_RUN_PATH             /home/jxliu/software/mpfr/mpfr-3.1.1/lib
+prepend-path     CPLUS_INCLUDE_PATH      /home/jxliu/software/mpfr/mpfr-3.1.1/include
+prepend-path     C_INCLUDE_PATH          /home/jxliu/software/mpfr/mpfr-3.1.1/include
+
+## MPC
+prepend-path     LD_LIBRARY_PATH         /home/jxliu/software/mpc/mpc-1.0.1/lib
+prepend-path     LIBRARY_PATH            /home/jxliu/software/mpc/mpc-1.0.1/lib
+prepend-path     LD_RUN_PATH             /home/jxliu/software/mpc/mpc-1.0.1/lib
+prepend-path     CPLUS_INCLUDE_PATH      /home/jxliu/software/mpc/mpc-1.0.1/include
+prepend-path     C_INCLUDE_PATH          /home/jxliu/software/mpc/mpc-1.0.1/include
+
+setenv           GCCHOME                 $prefix
+setenv           CC                      "/home/jxliu/software/compilers/gcc-9.4.0/bin/gcc"
+setenv           CXX                     "/home/jxliu/software/compilers/gcc-9.4.0/bin/g++"
+setenv           FC                      "/home/jxliu/software/compilers/gcc-9.4.0/bin/gfortran"
+setenv           F77                     "/home/jxliu/software/compilers/gcc-9.4.0/bin/gfortran"
+```
