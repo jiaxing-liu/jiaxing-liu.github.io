@@ -66,4 +66,4 @@ module load gcc-11.2.0-gcc-9.4.0-ypvyezp
 . /home/jxliu/software/spack/share/spack/setup-env.sh
 ```
 
-You can adding the above shell scripts to `~/.bashrc` file. 
+You can add the above shell scripts to the `~/.bashrc` file. 
