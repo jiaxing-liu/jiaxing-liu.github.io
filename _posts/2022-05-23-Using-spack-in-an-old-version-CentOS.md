@@ -51,3 +51,19 @@ Sometimes, there are error about fetch/SSL certificates.
 One simple method which may solve this problem is Using `--insecure`. This will not check SSL certificates and then fetch source code successfully.
 
 As for how to remove the warning without using `--insecure`, there is a discussion on this webpage [](https://spack.readthedocs.io/en/latest/getting_started.html#compiler-configuration). But it did not work well for me.
+
+## remove SSL check warnings
+
+This warning may be caused by the use of lower version `git`, `curl`, `python`, `gcc`. So we first load high version `git`, `curl`, `python`, `gcc` and then load `spack`.
+
+Here, I use spack install the newest curl, git, gcc@11.2.0.
+```bash
+module use /home/jxliu/software/spack/share/spack/modules/linux-centos7-skylake_avx512
+module load  git-2.35.2-gcc-11.2.0-dgkovwu 
+module load curl-7.83.0-gcc-11.2.0-rkxdfc4 
+module load python-3.9.12-gcc-11.2.0-xcqi7hi
+module load gcc-11.2.0-gcc-9.4.0-ypvyezp
+. /home/jxliu/software/spack/share/spack/setup-env.sh
+```
+
+You can adding the above shell scripts to `~/.bashrc` file. 
