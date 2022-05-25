@@ -2,7 +2,7 @@
 layout:     post
 title:      "Install old version gcc Using spack"
 subtitle:   "low version CentOS"
-date:       2022-05-23 10:00:00
+date:       2022-05-25 10:00:00
 author:     "JXLIU"
 header-img: "img/post-bg-2015.jpg"
 mathjax: true
