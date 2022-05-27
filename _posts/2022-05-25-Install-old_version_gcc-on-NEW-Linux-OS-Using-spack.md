@@ -52,7 +52,8 @@ However, there will be some errors when installing `gcc@4.8.5`, like
 
 Then, I google it and find a solution here [issue on spack-github](https://github.com/spack/spack/issues/15229)
 
-First, there need several patchs: gcc-backport.patch, ucontext\_t-4.8.patch, signal.patch, stack_t-4.8.patch. Some (gcc-backport.patch and signal.patch) are already exist in spack (`.../var/spack/repos/builtin/packages/gcc`), and the other need to be download from other place.
+First, there need several patchs: gcc-backport.patch, ucontext\_t-4.8.patch, signal.patch, stack_t-4.8.patch. Some ([gcc-backport.patch](https://github.com/jiaxing-liu/jiaxing-liu.github.io/files/8783823/gcc-backport.patch.txt) and [signal.patch](https://github.com/jiaxing-liu/jiaxing-liu.github.io/files/8783824/signal.patch.txt)) are already exist in spack (`.../var/spack/repos/builtin/packages/gcc`), and the other need to be download from other place.[ucontext_t-4.8.patch](https://github.com/jiaxing-liu/jiaxing-liu.github.io/files/8783819/ucontext_t-4.8.patch.txt) and
+[stack_t-4.8.patch](https://github.com/jiaxing-liu/jiaxing-liu.github.io/files/8783822/stack_t-4.8.patch.txt).
 
 Then, these three lines need to be added the `package.py` file, located in `.../var/spack/repos/builtin/packages/gcc`
 ```bash
@@ -66,4 +67,5 @@ Finally, I install `gcc@4.8.5` successfully using `gcc@7.5.0` with low version `
 ```bash
 LD_PRELOAD=/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/libstdc++.so.6 spack install -j21 gcc@4.8.5  %gcc@11.2.0 ^texinfo@6.0 ^gmp@5.1.3
 ```
+
 
