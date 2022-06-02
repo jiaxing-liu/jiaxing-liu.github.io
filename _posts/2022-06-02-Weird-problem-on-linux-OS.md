@@ -10,6 +10,7 @@ tags:
     - Linux
     - Gentoo
     - spack
+    - mhd(server)
 ---
 
 # Weird
