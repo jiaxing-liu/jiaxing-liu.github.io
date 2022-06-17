@@ -1,12 +1,13 @@
 ---
 layout:     post
-title:      "Install PSC code on the old CentOS"
-subtitle:   "low version CentOS"
-date:       2022-05-27 10:00:00
+title:      "Discussion of running PSC using PBS"
+subtitle:   "usage of OpenMPI"
+date:       2022-06-17 15:00:00
 author:     "JXLIU"
 header-img: "img/post-bg-2015.jpg"
 mathjax: true
 tags:
+    - discussion
     - MPI
     - PSC
     - PBS
