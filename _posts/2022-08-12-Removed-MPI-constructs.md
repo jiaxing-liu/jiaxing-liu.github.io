@@ -18,6 +18,8 @@ Starting with v4.0.0, Open MPI — by default — removes the prototypes from mp
 
 Specifically, the following symbols (specified in the MPI language-neutral names) are no longer prototyped in mpi.h by default:
 
+![Selection_003](https://user-images.githubusercontent.com/71710349/184339116-8a55998e-4805-44dd-b09c-6f08db10a065.png)
+
 
 Although these symbols are no longer prototyped in mpi.h, _they are still present in the MPI library in Open MPI v4.0.x._ This enables legacy MPI applications to link and run successfully with Open MPI v4.0.x, even though they will fail to compile.
 
@@ -26,5 +28,5 @@ Although these symbols are no longer prototyped in mpi.h, _they are still presen
 All that being said, if you are unable to immediately update your application to stop using these removed MPI-1 symbols, you can re-enable them in mpi.h by configuring Open MPI with the --enable-mpi1-compatibility flag.
 
 
-
+origin:[FAQ: Removed MPI constructs](https://www.open-mpi.org/faq/?category=mpi-removed)
 
