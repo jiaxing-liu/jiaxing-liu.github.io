@@ -18,6 +18,7 @@ tags:
 ## function out of a module 
 
 the function need to be declared when it is used in a subroutine or main program.
+
 ```Fortran
       program test
       implicit none
@@ -44,8 +45,10 @@ the function need to be declared when it is used in a subroutine or main program
 ```
 
 If the function is not declared, there will be such an error
+
 ```bash
-undefined reference to `__func_MOD_f```
+undefined reference to `__func_MOD_f
+```
 
 ## function in a module 
 
