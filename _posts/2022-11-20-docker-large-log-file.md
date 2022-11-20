@@ -2,7 +2,7 @@
 layout:     post
 title:      "docker large log file"
 subtitle:   "docker"
-date:       2022-11-04 22:00:00
+date:       2022-11-20 13:00:00
 author:     "JXLIU"
 header-img: "img/post-bg-2015.jpg"
 mathjax: true
