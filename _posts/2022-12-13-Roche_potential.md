@@ -23,6 +23,10 @@ $$
 \vec{\omega}=\left[\frac{G\left(M_1+M_2\right) M_{\odot}}{a^3}\right]^{1 / 2} \vec{e}
 $$
 
+![Roche potential](https://github.com/jiaxing-liu/figures/blob/main/plasma/space-plasma/Roche_potential.png)
+
+Gnuplot script
+
 ```gnuplot
 set term png
 unset surface
@@ -52,3 +56,4 @@ a=((x1-x2)**2+(y1-y2)**2)**(0.5)
 set output 'Roche_potential.png'
 splot GM0*(-M1/((x-x1)**2+(y-y1)**2)**(0.5)-M2/((x-x2)**2+(y-y2)**2)**(0.5)-(M1+M2)*(x**2+y**2)/(2.0*a**3))
 ```
+
