@@ -2,7 +2,7 @@
 layout:     post
 title:      "Picgo+gitlab+typora"
 subtitle:   "typora"
-date:       2020-04-01 12:00:00
+date:       2023-04-01 12:00:00
 author:     "JXLIU"
 header-img: "img/post-bg-2015.jpg"
 mathjax: true
