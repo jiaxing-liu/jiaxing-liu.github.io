@@ -2,7 +2,7 @@
 layout:     post
 title:      "Shared folder on Linux"
 subtitle:   "Word"
-date:       2020-04-11 12:00:00
+date:       2023-04-11 12:00:00
 author:     "JXLIU"
 header-img: "img/post-bg-2015.jpg"
 mathjax: true
