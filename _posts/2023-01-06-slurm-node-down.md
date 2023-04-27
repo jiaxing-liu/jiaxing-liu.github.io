@@ -20,3 +20,11 @@ scontrol update NodeName=nodename State=RESUME
 ```
 
 Reference: [](https://actorsfit.com/a?ID=01750-99cbcb92-3e6d-4afb-ab08-13c367c68436)
+
+
+Slurm Troubleshooting: Nodes stuck in CG status
+```bash
+scontrol update nodename=node006 state=down reason=cg
+scontrol update nodename=node006 state=resume
+```
+Reference: []([https://actorsfit.com/a?ID=01750-99cbcb92-3e6d-4afb-ab08-13c367c68436](https://www.tigrillolinux.net/index.php/Slurm_Troubleshooting:_Nodes_stuck_in_CG_status))
