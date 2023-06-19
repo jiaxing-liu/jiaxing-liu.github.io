@@ -48,3 +48,7 @@ ping -M do -s 400 ibio01
 ```
 
 it means the value of `mtu` of infiniband switch is too small.
+
+## others
+问题：`ssh connection stop at "debug1: SSH2_MSG_KEXINIT sent"`
+解决方案： ib 网卡的 mtu 值需要一致(destination 的不能太大)
