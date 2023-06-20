@@ -1,3 +1,3 @@
-## 科研方向
+## Research direction
 
-## 最近进展
+## Recent progress
