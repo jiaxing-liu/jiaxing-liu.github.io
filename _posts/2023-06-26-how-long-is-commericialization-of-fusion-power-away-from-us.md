@@ -2,7 +2,7 @@
 layout:     post
 title:      "How long is the commercialization of fusion power away from us?"
 subtitle:   "Fusion power"
-date:       2023-06-26 23:00:00
+date:       2023-06-26 15:00:00
 author:     "JXLIU"
 header-img: "img/sun1_2023.png"
 mathjax: true
