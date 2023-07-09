@@ -11,12 +11,12 @@ multilingual: true
 <!-- Chinese Version -->
 <div class="zh post-container">
     {% capture about_zh %}{% include future/unsolved-cn.md %}{% endcapture %}
-    {{ future_zh | markdownify }}
+    {{ about_zh | markdownify }}
 </div>
 
 <!-- English Version -->
 <div class="en post-container">
     {% capture about_en %}{% include future/unsolved-en.md %}{% endcapture %}
-    {{ future_en | markdownify }}
+    {{ about_en | markdownify }}
 </div>
 
