@@ -1,0 +1,22 @@
+---
+layout: page
+title: "Future"
+description: "《What to do》"
+header-img: "img/about-bg.jpg"
+multilingual: true
+---
+
+{% include multilingual-sel.html %}
+
+<!-- Chinese Version -->
+<div class="zh post-container">
+    {% capture about_zh %}{% include future/unsolved-cn.md %}{% endcapture %}
+    {{ future_zh | markdownify }}
+</div>
+
+<!-- English Version -->
+<div class="en post-container">
+    {% capture about_en %}{% include future/unsolved-en.md %}{% endcapture %}
+    {{ future_en | markdownify }}
+</div>
+
