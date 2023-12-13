@@ -26,6 +26,8 @@ One way to correct it is running the following command
 ```bash
 mkdir -p /sys/fs/cgroup/systemd
 mount -t cgroup -o none,name=systemd cgroup /sys/fs/cgroup/system
+# Sometimes, the following command is needed
+ mkdir -p /sys/fs/cgroup/system.slice
 ```
 
 For slurm on Gentoo, it works well now. While, the following two command may be also needed for other applications
