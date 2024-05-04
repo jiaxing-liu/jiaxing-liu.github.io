@@ -2,7 +2,7 @@
 layout:     post
 title:      "Self-hosted GitLab upgrade"
 subtitle:   "docker"
-date:       2024-01-11 16:00:00
+date:       2024-04-05 16:00:00
 author:     "JXLIU"
 header-img: "img/sun1_2023.jpg"
 mathjax: true
@@ -72,9 +72,13 @@ Gitlab::Database::BackgroundMigrationJob.pending.where(class_name: "ResetDuplica
 end
 ```
 
-### 
-
+### `xxx` -> `xxx` 
+通过重启 `docker-compose down`/`docker-compose up`， 解决了
 ```bash
 Caused by:
 gitlab | PG::CheckViolation: ERROR:  check constraint "check_70f294ef54" is violated by some row
 ```
+### unhealthy
+
+升级到个别版本时，server 状态为 `unhealthy`，不过没有影响网页的访问。
+具体是 `15.11.13`, `16.7.4`
