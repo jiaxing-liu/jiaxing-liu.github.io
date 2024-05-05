@@ -87,4 +87,15 @@ gitlab | PG::CheckViolation: ERROR:  check constraint "check_70f294ef54" is viol
 
 升级到 `16.11.1` 后，`500 error` 有时仍出现，增加有一个新问题，不能创建新分支。
 
-回退到之前版本，通过更改 `data` 权限，暂时解决 `500 error`。之后再慢慢升级、查找错误。
+回退到之前版本，通过更改 `data` 权限，暂时解决 `500 error`。此时 page deploy 会报如下错误
+
+```bash
+gitlab error:  pages deploy: parent directory is world writable
+```
+需要如下权限更改
+```bash
+chmod o-w data -R
+chmod o-w gitlab-rails -R
+```
+
+之后再慢慢升级、查找错误。
