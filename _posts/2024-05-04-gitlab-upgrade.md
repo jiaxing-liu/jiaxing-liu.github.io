@@ -82,3 +82,9 @@ gitlab | PG::CheckViolation: ERROR:  check constraint "check_70f294ef54" is viol
 
 升级到个别版本时，server 状态为 `unhealthy`，不过没有影响网页的访问。
 具体是 `15.11.13`, `16.7.4`
+
+## 后续
+
+升级到 `16.11.1` 后，`500 error` 有时仍出现，增加有一个新问题，不能创建新分支。
+
+回退到之前版本，通过更改 `data` 权限，暂时解决 `500 error`。之后再慢慢升级、查找错误。
