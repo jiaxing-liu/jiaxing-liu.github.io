@@ -12,9 +12,19 @@ tags:
     - gitlab
 ---
 
-## remove useless log file 
+## remove useless file 
 
+log file
 ```bash
 ls /var/lib/docker/containers/*/*-json.log -lh|awk '{print $9}'
 echo  >  *.log
+```
+unused volumn files
+```bash
+docker volume rm $(docker volume ls -qf dangling=true)
+```
+
+unused containers, images, etc...
+```bash
+docker system prune -f
 ```
