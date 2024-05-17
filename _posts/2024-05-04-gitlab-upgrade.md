@@ -83,19 +83,17 @@ gitlab | PG::CheckViolation: ERROR:  check constraint "check_70f294ef54" is viol
 升级到个别版本时，server 状态为 `unhealthy`，不过没有影响网页的访问。
 具体是 `15.11.13`, `16.7.4`
 
-## 后续
+## 500 error
 
-升级到 `16.11.1` 后，`500 error` 有时仍出现，增加有一个新问题，不能创建新分支。
-
-回退到之前版本，通过更改 `data` 权限，暂时解决 `500 error`。此时 page deploy 会报如下错误
+进入容器内，查看日志文件 `/var/log/gitlab/gitlab-rails/production.log`，发现如下错误
 
 ```bash
-gitlab error:  pages deploy: parent directory is world writable
+IO error xxxx
+xxx
 ```
-需要如下权限更改
-```bash
-chmod o-w data -R
-chmod o-w gitlab-rails -R
-```
+同时 `df -h` 查看到 /dev/shm 已占用 100%，增加该分区容量解决该问题。
+在 `docker-compose.yml` 文件中，添加
 
-之后再慢慢升级、查找错误。
+```bash
+shm_size: 1G
+```
