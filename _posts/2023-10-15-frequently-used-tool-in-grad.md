@@ -27,3 +27,5 @@ tags:
    ```
    Another similar tool is `tmux`.
 2. Gnuplot
+
+[gnuplot Scripts](https://www.bwcx.top/2024/0710/24/gnuplot/)
