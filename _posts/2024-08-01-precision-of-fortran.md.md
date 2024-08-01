@@ -49,6 +49,13 @@ c= 1.4142135623730951
 1.6817928161160998  
 1.6817928305074292
 ```
+`gfortran -fdefault-real-8 test.f90` 编译时有如下报错
+```Bash
+9 | c = dsqrt(c0)  
+| 1  
+错误: ‘x’ argument of ‘dsqrt’ intrinsic at (1) must be double precision
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNDI0ODcwNF19
+eyJoaXN0b3J5IjpbLTE3NTUzNTEyNDhdfQ==
 -->
