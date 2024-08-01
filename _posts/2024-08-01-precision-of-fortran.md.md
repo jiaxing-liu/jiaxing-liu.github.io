@@ -67,7 +67,8 @@ c= 1.4142135623730951
 1.6817928305074292  
 1.68179283050742908606225095246642969
 ```
-
+说明
+- 加上 `-fdefault-real-8` flag 后，2.0 也被认为是双精度，
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMjc1NDUwN119
+eyJoaXN0b3J5IjpbLTIwNDI3ODQ2OTFdfQ==
 -->
