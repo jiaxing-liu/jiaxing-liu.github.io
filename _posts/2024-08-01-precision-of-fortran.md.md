@@ -110,8 +110,8 @@ c0= 2.0000000000000000
 1.68179283050742908606225095246642969  
 1.68179283050742908606225095246642969
 ```
-前两行没问题；第3行和上面第四行一样，说明 -r8
+前两行没问题；第3行和上面第四行一样，说明 `-fdefault-real-8` flag 将 2.0 精度提高为双精度；
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNDgxNTMyNiw1MjI4MDA1MDhdfQ==
+eyJoaXN0b3J5IjpbODY0OTg3MDQsNTIyODAwNTA4XX0=
 -->
