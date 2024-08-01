@@ -110,8 +110,8 @@ c0= 2.0000000000000000
 1.68179283050742908606225095246642969  
 1.68179283050742908606225095246642969
 ```
-前两行没问题；第3行和上面第四行一样，说明 `-fdefault-real-8` flag 将 2.0 精度提高为双精度；
+前两行没问题；第3行和上面第四行一样，说明 `-fdefault-real-8` flag 将 2.0 精度提高为双精度；第4行输出为什么变成了16位的精度？？？？？不理解
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY0OTg3MDQsNTIyODAwNTA4XX0=
+eyJoaXN0b3J5IjpbLTQxMjQ2MjE1MCw1MjI4MDA1MDhdfQ==
 -->
