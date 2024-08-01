@@ -38,7 +38,7 @@ print*,sqrt(c0*sqrt(2.D0))
 end program test_sdprec
 ```
 `gfortran test.f90` 的输出结果为
-```Fortran
+```Bash
 a0= 2.00000000  
 a0= 2.0000000000000000  
 a= 1.41421354  
@@ -68,5 +68,5 @@ c= 1.4142135623730951
 1.68179283050742908606225095246642969
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDg1MDQ3OTddfQ==
+eyJoaXN0b3J5IjpbNTc2MjAxODIxXX0=
 -->
