@@ -55,7 +55,18 @@ c= 1.4142135623730951
 | 1  
 错误: ‘x’ argument of ‘dsqrt’ intrinsic at (1) must be double precision
 ```
-
+`c = dsqrt(c0)` 改为 `c = dsqrt(2.D0)` 重新编译通过，输出结果为
+```Bash
+a0= 2.0000000000000000  
+a0= 2.0000000000000000  
+a= 1.4142135623730951  
+b= 1.4142135623730951  
+b= 1.4142135623730951  
+c= 1.4142135623730951  
+1.4142135623730951  
+1.6817928305074292  
+1.68179283050742908606225095246642969
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTUzNTEyNDhdfQ==
+eyJoaXN0b3J5IjpbLTEyMDg1MDQ3OTddfQ==
 -->
