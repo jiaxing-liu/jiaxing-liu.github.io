@@ -1,16 +1,16 @@
 ---
 layout:     post
-title:      "Gnuplot scripts"
-subtitle:   "Visualization"
+title:      "Fortran precision"
+subtitle:   "Fortran"
 date:       2024-08-01 18:00:00
 author:     "JXLIU"
 header-img: "img/post-bg-2015.jpg"
 tags:
-    - Gnuplot
-    - Visualization
+    - Fortran
+    - Precision
 ---
 
-# Precison in Fortran
+# Precision in Fortran
 ## test 1
 A test program
 
