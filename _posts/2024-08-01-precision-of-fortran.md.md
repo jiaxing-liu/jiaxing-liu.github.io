@@ -100,8 +100,25 @@ c0= 2.0000000000000000
 1.6817928305074292  
 1.68179283050742914354432090834860257
 ```
-
+`gfortran -fdefault-real-8` 编译运行输出结果
+```Bash
+program test_sdprec  
+implicit none  
+real*8 :: c,c0  
+real*16 :: d  
+c0=2.D0  
+c = dsqrt(2.D0)  
+!c = dsqrt(c0)  
+print*, 'c=',c  
+print*, 'c0=',c0  
+print*,sqrt(c0*sqrt(2.0))  
+print*,sqrt(c0*sqrt(2.D0))  
+print*,sqrt(c0*sqrt(2.D0))  
+d=c0*sqrt(2.D0)  
+print*,sqrt(d)  
+end program test_sdprec
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMjQ0OTQ3Nyw1MjI4MDA1MDhdfQ==
+eyJoaXN0b3J5IjpbMTM1NjY4NzA5NSw1MjI4MDA1MDhdfQ==
 -->
