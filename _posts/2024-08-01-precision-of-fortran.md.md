@@ -30,15 +30,25 @@ b = sqrt(a0)
 print*, 'b=',b  
 b = sqrt(c0)  
 print*, 'b=',b  
-c = dsqrt(2.D0)  
+c = dsqrt(c0)  
 print*, 'c=',c  
 print*,sqrt(a0)  
 print*,sqrt(c0*sqrt(2.0))  
 print*,sqrt(c0*sqrt(2.D0))  
 end program test_sdprec
 ```
-
-
+`gfortran test.f90` 的输出结果为
+```Fortran
+a0= 2.00000000  
+a0= 2.0000000000000000  
+a= 1.41421354  
+b= 1.4142135381698608  
+b= 1.4142135623730951  
+c= 1.4142135623730951  
+1.41421354  
+1.6817928161160998  
+1.6817928305074292
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTc3NzAxODBdfQ==
+eyJoaXN0b3J5IjpbMTAxNDI0ODcwNF19
 -->
