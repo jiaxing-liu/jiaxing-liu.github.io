@@ -70,7 +70,7 @@ c= 1.4142135623730951
 说明
 
 - 加上 `-fdefault-real-8` flag 后，2.0 也被认为是双精度。（根据倒数第一次第二行、第二次倒数第一行的输出）
-- 
+- 为和报错
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTMyMzM0MzhdfQ==
+eyJoaXN0b3J5IjpbNTIyODAwNTA4XX0=
 -->
