@@ -37,6 +37,8 @@ print*,sqrt(c0*sqrt(2.0))
 print*,sqrt(c0*sqrt(2.D0))  
 end program test_sdprec
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMjMzOTE2OF19
+eyJoaXN0b3J5IjpbLTIwMTc3NzAxODBdfQ==
 -->
