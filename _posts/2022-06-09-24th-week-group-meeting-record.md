@@ -2,7 +2,7 @@
 layout:     post
 title:      "24th week group meeting record"
 subtitle:   "PWSO-1D PSC"
-date:       2022-06-11 16:00:00
+date:       2022-06-09 16:00:00
 author:     "JXLIU"
 header-img: "img/post-bg-2015.jpg"
 mathjax: true
