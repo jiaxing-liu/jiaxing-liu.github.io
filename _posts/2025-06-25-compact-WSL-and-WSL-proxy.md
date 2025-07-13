@@ -11,7 +11,7 @@ tags:
 
 
 
-#  压缩 WSL 磁盘的方法
+##  压缩 WSL 磁盘的方法
 
 1. **关闭所有 WSL 实例：**
 
@@ -34,4 +34,16 @@ tags:
    compact vdisk
    detach vdisk
    exit
+   ```
+
+   ## Powershell 中设置防火墙使 WSL 可以使用 windows 代理
+
+   ```bash
+    New-NetFirewallRule -DisplayName "Allow WSL Access to v2rayA HTTP Proxy" `
+>>   -Direction Inbound `
+>>   -Action Allow `
+>>   -Protocol TCP `
+>>   -LocalPort 20171 `
+>>   -RemoteAddress 172.29.16.0/20 `
+>>   -Profile Any
    ```
