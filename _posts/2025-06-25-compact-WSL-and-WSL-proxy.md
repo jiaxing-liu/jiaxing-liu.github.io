@@ -36,9 +36,9 @@ tags:
    exit
    ```
 
-   ## Powershell 中设置防火墙使 WSL 可以使用 windows 代理
+## Powershell 中设置防火墙使 WSL 可以使用 windows 代理
 
-   ```bash
+```bash
     New-NetFirewallRule -DisplayName "Allow WSL Access to v2rayA HTTP Proxy" `
 >>   -Direction Inbound `
 >>   -Action Allow `
@@ -46,4 +46,4 @@ tags:
 >>   -LocalPort 20171 `
 >>   -RemoteAddress 172.29.16.0/20 `
 >>   -Profile Any
-   ```
+```
